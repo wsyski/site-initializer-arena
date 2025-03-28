@@ -1,6 +1,5 @@
 {
   "pageElement": {
-    "id": "6fa0569e-63e4-a2ab-8fdf-b88e05fbe0e7",
     "pageElements": [
       {
         "definition": {
@@ -37,7 +36,6 @@
             "paddingTop": 6
           }
         },
-        "id": "c9e5c906-84e8-9d82-ca02-576903b443b7",
         "pageElements": [
           {
             "definition": {
@@ -72,7 +70,6 @@
                 "widthType": "Fixed"
               }
             },
-            "id": "97ab2b96-874d-5e65-272a-6c75fb590653",
             "pageElements": [
               {
                 "definition": {
@@ -100,7 +97,6 @@
                   ],
                   "verticalAlignment": "middle"
                 },
-                "id": "f59ebe55-12c9-c026-f7be-d2e4626b5351",
                 "pageElements": [
                   {
                     "definition": {
@@ -122,7 +118,6 @@
                       ],
                       "size": 5
                     },
-                    "id": "be927c2e-cd84-4c3f-cb67-660d9b2e4ac6",
                     "pageElements": [
                       {
                         "definition": {
@@ -168,7 +163,6 @@
                           ],
                           "indexed": true
                         },
-                        "id": "c975a6b7-c3f8-7238-250a-a15020f8b556",
                         "type": "Fragment"
                       },
                       {
@@ -211,7 +205,6 @@
                           ],
                           "indexed": true
                         },
-                        "id": "d426bbab-5709-3a6f-2e12-c0bd84a31e2f",
                         "type": "Fragment"
                       }
                     ],
@@ -237,24 +230,23 @@
                       ],
                       "size": 7
                     },
-                    "id": "774110f9-5e9e-c5c6-e6c1-95fa2bf9e3f9",
                     "pageElements": [
                       {
                         "definition": {
                           "widgetInstance": {
                             "widgetConfig": {
-                              "ddmTemplateKey": "ARTICLE",
+                              "ddmStructure": "ARENA-ARTICLE",
+                              "ddmTemplateKey": "ARENA-ARTICLE",
                               "assetEntryId": "43288",
                               "userToolAssetAddonEntryKeys": "false",
-                              "groupId": "43218",
+                              "groupId": "[$GROUP_ID$]",
                               "enableViewCountIncrement": "false",
-                              "articleId": "AXIELL",
+                              "articleId": "ARENA-AXIELL",
                               "contentMetadataAssetAddonEntryKeys": "false"
                             },
                             "widgetName": "com_liferay_journal_content_web_portlet_JournalContentPortlet"
                           }
                         },
-                        "id": "22100100-5993-b091-d367-fc4a90fa3bf7",
                         "type": "Widget"
                       }
                     ],
