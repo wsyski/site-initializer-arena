@@ -110,7 +110,7 @@
                             "fragmentLink": {},
                             "text": {
                               "value_i18n": {
-                                "en_US": "Welcome to the Learning Center"
+                                "en_US": "Arena Stage"
                               }
                             }
                           }
@@ -138,7 +138,7 @@
                             "fragmentLink": {},
                             "text": {
                               "value_i18n": {
-                                "en_US": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra metus vitae diam sagittis dignissim. Donec aliquet ornare aliquet. Nunc auctor sem purus, sit amet tempor metus blandit in. Sed quis convallis dolor. Praesent tristique tellus in mi cursus, non tincidunt est mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus ante vel eleifend tristique. Etiam sit amet pretium libero, in ullamcorper magna. Nullam bibendum, mi rhoncus lobortis consectetur, nibh enim varius lorem, et tempor lectus sapien ut sapien. Sed ac convallis augue. Vivamus eu dolor vel tellus ultricies molestie. Phasellus vel porttitor magna, non tristique elit. Proin molestie, lorem eu laoreet vehicula, enim libero lobortis dui, sodales mattis nisl felis id sem. Integer nec rutrum risus. Aliquam gravida venenatis enim, ut aliquet lorem laoreet sit amet. Etiam quam sem, hendrerit non pellentesque quis, pretium at elit.</p>\n"
+                                "en_US": "<p>This is a staging site for Arena.</p>\n"
                               }
                             }
                           }
@@ -242,7 +242,7 @@
                                   "value": {
                                     "href": {
                                       "value_i18n": {
-                                        "en_US": "/web/learning-center/home"
+                                        "en_US": "/web/arena-stage/home"
                                       }
                                     }
                                   }

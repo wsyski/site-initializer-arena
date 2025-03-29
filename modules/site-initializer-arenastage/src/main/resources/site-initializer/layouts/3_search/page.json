@@ -4,9 +4,7 @@
 	"name_i18n": {
 		"en_US": "Search"
 	},
-	"friendlyURL_i18n": {
-		"en_US": "/search"
-	},
+	"friendlyURL":  "/search",
 	"system": false,
 	"type": "Content",
 	"typeSettings": [
