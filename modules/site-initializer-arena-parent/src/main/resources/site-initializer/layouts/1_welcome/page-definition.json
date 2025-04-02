@@ -155,7 +155,7 @@
                   {
                     "definition": {
                       "fragment": {
-                        "key": "BASIC_COMPONENT-HEADING"
+                        "key": "BASIC_COMPONENT-heading"
                       },
                       "fragmentConfig": {
                         "headingLevel": "h3"
@@ -228,7 +228,7 @@
                       {
                         "definition": {
                           "fragment": {
-                            "key": "BASIC_COMPONENT-BUTTON"
+                            "key": "BASIC_COMPONENT-button"
                           },
                           "fragmentConfig": {
                             "buttonType": "primary",
