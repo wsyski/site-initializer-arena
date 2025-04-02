@@ -1,0 +1,266 @@
+{
+  "pageElement": {
+    "pageElements": [
+      {
+        "definition": {
+          "fragmentStyle": {
+            "paddingBottom": "6",
+            "paddingTop": "6"
+          },
+          "fragmentViewports": [
+            {
+              "fragmentViewportStyle": {
+                "paddingBottom": "5",
+                "paddingTop": "5"
+              },
+              "id": "landscapeMobile"
+            },
+            {
+              "fragmentViewportStyle": {
+                "paddingBottom": "5",
+                "paddingTop": "5"
+              },
+              "id": "portraitMobile"
+            },
+            {
+              "fragmentViewportStyle": {
+                "paddingBottom": "6",
+                "paddingTop": "6"
+              },
+              "id": "tablet"
+            }
+          ],
+          "indexed": true,
+          "layout": {
+            "paddingBottom": 6,
+            "paddingTop": 6
+          }
+        },
+        "pageElements": [
+          {
+            "definition": {
+              "fragmentStyle": {
+                "paddingLeft": "2",
+                "paddingRight": "2"
+              },
+              "fragmentViewports": [
+                {
+                  "fragmentViewportStyle": {
+                    "paddingLeft": "3"
+                  },
+                  "id": "landscapeMobile"
+                },
+                {
+                  "fragmentViewportStyle": {
+                    "paddingLeft": "4",
+                    "paddingRight": "4"
+                  },
+                  "id": "portraitMobile"
+                },
+                {
+                  "fragmentViewportStyle": {
+                    "paddingLeft": "3",
+                    "paddingRight": "3"
+                  },
+                  "id": "tablet"
+                }
+              ],
+              "indexed": true,
+              "layout": {
+                "widthType": "Fixed"
+              }
+            },
+            "pageElements": [
+              {
+                "definition": {
+                  "gutters": true,
+                  "indexed": true,
+                  "modulesPerRow": 2,
+                  "numberOfColumns": 2,
+                  "reverseOrder": false,
+                  "rowViewports": [
+                    {
+                      "id": "landscapeMobile",
+                      "rowViewportDefinition": {}
+                    },
+                    {
+                      "id": "portraitMobile",
+                      "rowViewportDefinition": {}
+                    },
+                    {
+                      "id": "tablet",
+                      "rowViewportDefinition": {
+                        "modulesPerRow": 1,
+                        "reverseOrder": true
+                      }
+                    }
+                  ],
+                  "verticalAlignment": "middle"
+                },
+                "pageElements": [
+                  {
+                    "definition": {
+                      "columnViewports": [
+                        {
+                          "columnViewportDefinition": {},
+                          "id": "landscapeMobile"
+                        },
+                        {
+                          "columnViewportDefinition": {},
+                          "id": "portraitMobile"
+                        },
+                        {
+                          "columnViewportDefinition": {
+                            "size": 12
+                          },
+                          "id": "tablet"
+                        }
+                      ],
+                      "size": 5
+                    },
+                    "pageElements": [
+                      {
+                        "definition": {
+                          "fragment": {
+                            "key": "BASIC_COMPONENT-paragraph"
+                          },
+                          "fragmentConfig": {},
+                          "fragmentFields": [
+                            {
+                              "id": "element-text",
+                              "value": {
+                                "fragmentLink": {},
+                                "text": {
+                                  "value_i18n": {
+                                    "fi_FI": "Liferay toivottaa tervetulleeksi",
+                                    "sv_SE": "Välkommen till Liferay",
+                                    "en_US": "Welcome to Liferay",
+                                    "fr_FR": "Bienvenue à Liferay",
+                                    "de_DE": "Willkommen bei Liferay"
+                                  }
+                                }
+                              }
+                            }
+                          ],
+                          "fragmentStyle": {
+                            "fontSize": "h1FontSize",
+                            "fontWeight": "fontWeightBold",
+                            "marginBottom": "3"
+                          },
+                          "fragmentViewports": [
+                            {
+                              "fragmentViewportStyle": {
+                                "marginTop": "2"
+                              },
+                              "id": "portraitMobile"
+                            },
+                            {
+                              "fragmentViewportStyle": {
+                                "marginBottom": "3"
+                              },
+                              "id": "tablet"
+                            }
+                          ],
+                          "indexed": true
+                        },
+                        "type": "Fragment"
+                      },
+                      {
+                        "definition": {
+                          "fragment": {
+                            "key": "BASIC_COMPONENT-paragraph"
+                          },
+                          "fragmentConfig": {},
+                          "fragmentFields": [
+                            {
+                              "id": "element-text",
+                              "value": {
+                                "fragmentLink": {}
+                              }
+                            }
+                          ],
+                          "fragmentStyle": {
+                            "fontSize": "fontSizeBase",
+                            "textColor": "gray600Color"
+                          },
+                          "fragmentViewports": [
+                            {
+                              "fragmentViewportStyle": {
+                                "marginBottom": "4"
+                              },
+                              "id": "landscapeMobile"
+                            },
+                            {
+                              "fragmentViewportStyle": {
+                                "marginBottom": "4"
+                              },
+                              "id": "portraitMobile"
+                            },
+                            {
+                              "fragmentViewportStyle": {
+                                "marginBottom": "4"
+                              },
+                              "id": "tablet"
+                            }
+                          ],
+                          "indexed": true
+                        },
+                        "type": "Fragment"
+                      }
+                    ],
+                    "type": "Column"
+                  },
+                  {
+                    "definition": {
+                      "columnViewports": [
+                        {
+                          "columnViewportDefinition": {},
+                          "id": "landscapeMobile"
+                        },
+                        {
+                          "columnViewportDefinition": {},
+                          "id": "portraitMobile"
+                        },
+                        {
+                          "columnViewportDefinition": {
+                            "size": 12
+                          },
+                          "id": "tablet"
+                        }
+                      ],
+                      "size": 7
+                    },
+                    "pageElements": [
+                      {
+                        "definition": {
+                          "widgetInstance": {
+                            "widgetConfig": {
+                              "ddmStructure": "ARENA-ARTICLE-STRUCTURE",
+                              "ddmTemplateKey": "ARENA-ARTICLE-TEMPLATE",
+                              "userToolAssetAddonEntryKeys": "false",
+                              "groupId": "[$GROUP_ID$]",
+                              "enableViewCountIncrement": "false",
+                              "articleId": "ARENA-ARTICLE-0",
+                              "contentMetadataAssetAddonEntryKeys": "false"
+                            },
+                            "widgetName": "com_liferay_journal_content_web_portlet_JournalContentPortlet"
+                          }
+                        },
+                        "type": "Widget"
+                      }
+                    ],
+                    "type": "Column"
+                  }
+                ],
+                "type": "Row"
+              }
+            ],
+            "type": "Section"
+          }
+        ],
+        "type": "Section"
+      }
+    ],
+    "type": "Root"
+  }
+}

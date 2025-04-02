@@ -1,0 +1,6 @@
+Bundle-Name: Arena Site Initializer Arena Parent
+Bundle-SymbolicName: com.axiell.arena.liferay.site.initializer.arena-parent
+Bundle-Version: 5.8.0
+Liferay-Site-Initializer-Name: Arena Parent
+Provide-Capability: liferay.site.initializer
+Web-ContextPath: /site-initializer-arena-parent

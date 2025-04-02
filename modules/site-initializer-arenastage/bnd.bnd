@@ -1,6 +1,0 @@
-Bundle-Name: Arena Site Initializer Arena Stage
-Bundle-SymbolicName: com.axiell.arena.liferay.site.initializer.arenastage
-Bundle-Version: 1.0.0
-Liferay-Site-Initializer-Name: Arena Stage
-Provide-Capability: liferay.site.initializer
-Web-ContextPath: /site-initializer-arenastage
