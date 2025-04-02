@@ -110,7 +110,7 @@
                             "fragmentLink": {},
                             "text": {
                               "value_i18n": {
-                                "en_US": "Arena Stage"
+                                "en_US": "Arena Parent"
                               }
                             }
                           }
@@ -138,7 +138,7 @@
                             "fragmentLink": {},
                             "text": {
                               "value_i18n": {
-                                "en_US": "<p>This is a staging site for Arena.</p>\n"
+                                "en_US": "<p>This is a parent site for Arena.</p>\n"
                               }
                             }
                           }

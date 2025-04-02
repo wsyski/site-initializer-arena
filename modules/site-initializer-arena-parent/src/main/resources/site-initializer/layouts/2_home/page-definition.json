@@ -132,11 +132,10 @@
                                 "fragmentLink": {},
                                 "text": {
                                   "value_i18n": {
-                                    "fi_FI": "Liferay toivottaa tervetulleeksi",
-                                    "sv_SE": "Välkommen till Liferay",
-                                    "en_US": "Welcome to Liferay",
-                                    "fr_FR": "Bienvenue à Liferay",
-                                    "de_DE": "Willkommen bei Liferay"
+                                    "sv_SE": "Välkommen till Arena Parent",
+                                    "en_US": "Welcome to Arena Parent",
+                                    "fr_FR": "Bienvenue à Arena Parent",
+                                    "de_DE": "Willkommen bei Arena Parent"
                                   }
                                 }
                               }
