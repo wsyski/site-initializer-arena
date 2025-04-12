@@ -4,22 +4,23 @@
       {
         "definition": {
           "fragmentStyle": {
+            "textAlign": "right"
+          },
+          "widgetInstance": {
+            "widgetConfig": {},
+            "widgetName": "com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet"
+          }
+        },
+        "type": "Widget"
+      },
+      {
+        "definition": {
+          "fragmentStyle": {
             "borderWidth": "0",
             "textAlign": ""
           },
           "indexed": true,
-          "layout": {
-            "borderWidth": 0,
-            "marginBottom": 0,
-            "marginLeft": 0,
-            "marginRight": 0,
-            "marginTop": 0,
-            "paddingBottom": 0,
-            "paddingLeft": 0,
-            "paddingRight": 0,
-            "paddingTop": 0,
-            "widthType": "Fluid"
-          }
+          "layout": {}
         },
         "pageElements": [
           {
@@ -154,48 +155,19 @@
                   },
                   {
                     "definition": {
-                      "fragment": {
-                        "key": "BASIC_COMPONENT-heading"
-                      },
-                      "fragmentConfig": {
-                        "headingLevel": "h3"
-                      },
-                      "fragmentFields": [
-                        {
-                          "id": "element-text",
-                          "value": {
-                            "fragmentLink": {},
-                            "text": {
-                              "value_i18n": {
-                                "en_US": "What are you looking for?"
-                              }
-                            }
-                          }
-                        }
-                      ],
-                      "fragmentStyle": {
-                        "textAlign": "",
-                        "textColor": "brandColor4"
-                      },
-                      "indexed": true
-                    },
-                    "type": "Fragment"
-                  },
-                  {
-                    "definition": {
                       "widgetInstance": {
                         "widgetConfig": {
                           "federatedSearchKey": "",
+                          "displayStyle": "default",
                           "suggestionsContributorConfigurations": "{\"contributorName\":\"basic\",\"displayGroupName\":\"suggestions\",\"size\":5}",
+                          "scopeParameterName": "scope",
                           "showStagedResults": "false",
                           "searchScope": "this-site",
                           "suggestionsEnabled": "true",
+                          "keywordsParameterName": "q",
                           "destination": "/search",
                           "invisible": "false",
                           "suggestionsDisplayThreshold": "2",
-                          "displayStyle": "default",
-                          "scopeParameterName": "scope",
-                          "keywordsParameterName": "q",
                           "useAdvancedSearchSyntax": "false"
                         },
                         "widgetName": "com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet"
@@ -212,16 +184,7 @@
                       },
                       "indexed": true,
                       "layout": {
-                        "borderWidth": 0,
-                        "marginBottom": 0,
-                        "marginLeft": 0,
-                        "marginRight": 0,
-                        "marginTop": 1,
-                        "paddingBottom": 0,
-                        "paddingLeft": 0,
-                        "paddingRight": 0,
-                        "paddingTop": 0,
-                        "widthType": "Fluid"
+                        "marginTop": 1
                       }
                     },
                     "pageElements": [
@@ -232,6 +195,7 @@
                           },
                           "fragmentConfig": {
                             "buttonType": "primary",
+                            "type": "link",
                             "buttonSize": "nm"
                           },
                           "fragmentFields": [
@@ -297,8 +261,8 @@
     "type": "Root"
   },
   "settings": {
-    "masterPage": {
-      "key": "LC_DEFAULT"
-    }
-  }
+    "colorSchemeName": "01",
+    "themeName": "Classic"
+  },
+  "version": 1.1
 }

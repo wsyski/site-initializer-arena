@@ -73,6 +73,18 @@
             "pageElements": [
               {
                 "definition": {
+                  "fragmentStyle": {
+                    "textAlign": "right"
+                  },
+                  "widgetInstance": {
+                    "widgetConfig": {},
+                    "widgetName": "com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet"
+                  }
+                },
+                "type": "Widget"
+              },
+              {
+                "definition": {
                   "gutters": true,
                   "indexed": true,
                   "modulesPerRow": 2,
@@ -95,7 +107,7 @@
                       }
                     }
                   ],
-                  "verticalAlignment": "middle"
+                  "verticalAlignment": "top"
                 },
                 "pageElements": [
                   {
@@ -174,7 +186,13 @@
                             {
                               "id": "element-text",
                               "value": {
-                                "fragmentLink": {}
+                                "fragmentLink": {},
+                                "text": {
+                                  "value_i18n": {
+                                    "en_US": "Article example:",
+                                    "sv_SE": "Artikel exampel:"
+                                  }
+                                }
                               }
                             }
                           ],
@@ -205,6 +223,23 @@
                           "indexed": true
                         },
                         "type": "Fragment"
+                      },
+                      {
+                        "definition": {
+                          "widgetInstance": {
+                            "widgetConfig": {
+                              "ddmStructure": "ARENA-ARTICLE-STRUCTURE",
+                              "ddmTemplateKey": "ARENA-ARTICLE-TEMPLATE",
+                              "userToolAssetAddonEntryKeys": "false",
+                              "groupId": "[$GROUP_ID$]",
+                              "enableViewCountIncrement": "false",
+                              "articleId": "ARENA-ARTICLE-0",
+                              "contentMetadataAssetAddonEntryKeys": "false"
+                            },
+                            "widgetName": "com_liferay_journal_content_web_portlet_JournalContentPortlet"
+                          }
+                        },
+                        "type": "Widget"
                       }
                     ],
                     "type": "Column"
@@ -233,16 +268,8 @@
                       {
                         "definition": {
                           "widgetInstance": {
-                            "widgetConfig": {
-                              "ddmStructure": "ARENA-ARTICLE-STRUCTURE",
-                              "ddmTemplateKey": "ARENA-ARTICLE-TEMPLATE",
-                              "userToolAssetAddonEntryKeys": "false",
-                              "groupId": "[$GROUP_ID$]",
-                              "enableViewCountIncrement": "false",
-                              "articleId": "ARENA-ARTICLE-0",
-                              "contentMetadataAssetAddonEntryKeys": "false"
-                            },
-                            "widgetName": "com_liferay_journal_content_web_portlet_JournalContentPortlet"
+                            "widgetConfig": {},
+                            "widgetName": "com_liferay_calendar_web_portlet_CalendarPortlet"
                           }
                         },
                         "type": "Widget"
