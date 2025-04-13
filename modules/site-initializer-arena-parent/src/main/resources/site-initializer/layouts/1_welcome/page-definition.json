@@ -3,14 +3,11 @@
     "pageElements": [
       {
         "definition": {
-          "fragmentStyle": {
-            "textAlign": "right"
-          },
           "widgetInstance": {
-            "widgetConfig": {},
             "widgetName": "com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet"
           }
         },
+        "id": "languageSelector",
         "type": "Widget"
       },
       {
