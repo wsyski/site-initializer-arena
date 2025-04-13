@@ -73,15 +73,6 @@
             "pageElements": [
               {
                 "definition": {
-                  "widgetInstance": {
-                    "widgetName": "com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet"
-                  }
-                },
-                "id": "languageSelector",
-                "type": "Widget"
-              },
-              {
-                "definition": {
                   "gutters": true,
                   "indexed": true,
                   "modulesPerRow": 2,
